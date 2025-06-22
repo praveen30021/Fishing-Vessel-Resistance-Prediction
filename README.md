@@ -6,14 +6,12 @@
 - [Application Screenshot](#application-screenshot)
 - [Tools and Software Requirements](#tools-and-software-requirements)
 - [Packages Requirements](#packages-requirements)
-- [Instalation](#instalationn)
 - [Features and Target](#features-and-target)
 - [Models and Algorithms](#model-and-algorithms)
 - [Results](#results)
 - [Correleation Matrix](#correlation-matrix)
 - [Resisual Plot](#resisual-plot)
 - [List of Symbols](#list-of-symbols)
-- [Reeferences](#references)
 
 ## Overview
 Machine learning (ML) and artificial intelligence (AI) becomes very popular approach in scientific data analyses recently. This analysis tries to apply this techniques on database of ship resistance evaluated on model tests conducted in the towing tank. The analyses were carried out on the fishing vessel types to maximize accuracy of tested models. The residuary resistance coefficients is predicted basing on presented methods and further evaluated by standard ITTC methodology to achieve main goal which is the total resistance of ship. Accomplished results are evaluated basing on standard metrics such as Pearson correlation coefficient (coefficient of determination 𝑅𝑅 2) and mean square error (MSE). The results of presented study seems to be very practical on early stage design and may be used for primary estimation of engine power based on resistance results.
@@ -161,27 +159,4 @@ TF - Draught fore (at fore perpendicular) [m]
 
 V - Vessel speed [knots]
 
-## References
-1. M. G. Holtrop J., “An approximate power prediction method,” International Shipbuilding Progress, vol. 29, pp. 166–170, 1978.
-2. L. Nikolopoulos and E. Boulougouris, “A Study on the Statistical Calibration of the Holtrop and Mennen Approximate Power Prediction Method for Full Hull Form, Low Froude Number Vessels,” Journal of Ship Production and Design, vol. 35, no. 1, pp. 41–68, Feb. 2019.
-3. H. Khan, “Artificial neural networks based prediction and validation tool (annpvt) for ship model powering tests in towing tanks,” in 2021 international conference on artificial intelligence (icai), 2021, pp. 113–118.
-4. K. Grabowska and P. Szczuko, “Ship resistance prediction with artificial neural networks,” in 2015 signal processing: Algorithms, architectures, arrangements, and applications (spa), 2015, pp. 168–173.
-5. Q. Sun, M. Zhang, L. Zhou, K. Garme, and M. Burman, “A machine learning-based method for prediction of ship performance in ice: Part i. Ice resistance,” Marine Structures, 
-vol. 83, p.103181, 2022.
-6. A.-S. Milaković, F. Li, M. Marouf, and S. Ehlers, “A machine learning-based method for simulation of ship speed profile in a complex ice field,” Ships and Offshore Structures, vol. 15, no. 9, pp. 974–980, 2020.
-7. Y. Ao, Y. Li, J. Gong, and S. Li, “Artificial Intelligence Design for Ship Structures: A Variant Multiple-Input Neural Network-Based Ship Resistance Prediction,” Journal of Mechanical Design, vol. 144, no. 9, Jun. 2022.
-8. W. Tarelko and K. Rudzki, “Applying artificial neural networks for modelling ship speed and fuel consumption,” Neural Computing and Applications, vol. 32, no. 23, pp. 17379–17395, Dec. 2020.
-9. Y. Yang, H. Tu, L. Song, L. Chen, D. Xie, and J. Sun, “Research on accurate prediction of the container ship resistance by rbfnn and other machine learning algorithms,” Journal of
-Marine Science and Engineering, vol. 9, no. 4, 2021.
-10. T. Uyanık, Ç. Karatuğ, and Y. Arslanoğlu, “Machine learning approach to ship fuel consumption: A case of container vessel,” Transportation Research Part D: Transport and Environment, vol. 84, p. 102389, 2020.
-11. A. J. Smola and B. Schölkopf, “A tutorial on support vector regression,” Statistics and Computing, vol. 14, no. 3, pp. 199–222, Aug. 2004.
-12. R. Tibshirani, T. Hastie, and J. Friedman, “Regularized paths for generalized linear models via coordinate descent,” Journal of Statistical Software, vol. 33, Feb. 2010.
-13. A. E. Hoerl and R. W. Kennard, “Ridge regression: Biased estimation for nonorthogonal problems,”Technometrics, vol. 12, no. 1, pp. 55–67, 1970.
-14. T. Chen and C. Guestrin, “XGBoost: A scalable tree boosting system,” in Proceedings of the 22Nd acm sigkdd international conference on knowledge discovery and data mining, in KDD
-’16. New York, NY, USA: ACM, 2016, pp. 785–794. 
-15. J. H. Friedman, “Greedy function approximation: A gradient boosting machine.” The Annals of Statistics, vol. 29, no. 5, pp. 1189–1232, 2001.
-16. L. Breiman, “Random Forests,” Machine Learning, vol. 45, no. 1, pp. 5–32, 2001.
-17. D. P. Kingma and J. Ba, “Adam: A method for stochastic optimization,” CoRR, vol. abs/1412.6980, 2014.
-18. ITTC quality system manual: Recommended procedures and guidelines: Procedure 1978 ittc performance prediction method. International Towing Tank Conference, 1978.
-19. B. Bowden and N. Davison, “Resistance increments due to hull roughness associated with form factor extrapolation methods,” NPL Ship TM 3800, 1974.
-20. F. Pedregosa et al., “Scikit-learn: Machine learning in Python.” https://scikit-learn.org, 2011.
+
