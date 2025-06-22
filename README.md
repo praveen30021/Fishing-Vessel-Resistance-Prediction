@@ -76,12 +76,6 @@ Here is a brief description of the input data:
 - Scipy
 - Tensorflow
 
-## Instalation
-1. Clone repository git clone https://github.com/kalbar87/resistance.git
-2. Navigate to the project directory: cd resistance
-3. Install dependencies: pip install -r requirements.txt
-4. Run the project: streamlit run app.py
-
 ## Features and Target
 The machine learning and deep neural network model have 8 input features (k, CB, LCB, CM, CP, B/T, Fr, Trim/T), which are calculated from hydrostatic input data. Residual resistance (CR) represents mostly the wave resistance and is the model target. The density plots for each of selected features are presented in figure below:
 
